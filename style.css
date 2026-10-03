@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+
+.first-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px 40px;
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.second_block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 870px;
+    margin: 80px auto 0;
+    padding: 30px 40px;
+}
+
+.tablet_image {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.second_block .text {
+    padding-top: 25px;
+}
+
+.image_window {
+    width: 50%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.image_window img {
+    display: flex;
+    width: 170%;
+    max-width: none;
+    height: auto;
+}
+
+.text{
+    flex: 1;
+
+}
+
+.text h1{
+    margin: 0 0 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.text p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.end {
+    border-top: 1px solid #ddd;
+    padding: 80px 24px 100px;
+    text-align: center;
+}
+
+.end h2 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.end p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.button {
+    padding: 14px 24px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.button_1 {
+    background: white;
+    color: #777;
+}
+
+.button_2 {
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.third_block {
+    height: 420px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 22px;
+    color: #222;
+    text-decoration: none;
+}
+
+.about_link {
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+}
