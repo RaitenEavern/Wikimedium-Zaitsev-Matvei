@@ -138,3 +138,9 @@ body {
     color: #999;
     text-decoration: none;
 }
+
+.tablet_image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

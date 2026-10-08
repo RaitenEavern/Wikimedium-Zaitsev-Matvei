@@ -1,1 +1,0 @@
-# Wikimedium-Zaitsev-Matvei
